@@ -6,7 +6,7 @@ import './index.css';
 import { createBrowserRouter, RouterProvider} from "react-router-dom"
 
 //LOADERS //
-import { getTestimonials } from './loaders';
+import { getHappenings, getTestimonials } from './loaders';
 
 
 //COMPONENTS //
@@ -33,7 +33,9 @@ const router = createBrowserRouter([
       },
 
       { path: "happenings",
-        element: <Happenings />
+        element: <Happenings />,
+        loader: getHappenings
+
       },
 
       {path: "curiosities",

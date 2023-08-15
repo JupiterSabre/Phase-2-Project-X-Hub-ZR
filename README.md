@@ -15,14 +15,17 @@ Phase 2 project TO DO'S
 -Where 2 image galleries live. Images are horizontally displayed, and scroll when hovered over, image that is focused on will expand a bit.
 
 (Curiosities)
-What will section 1 actually contain? DALL-E COMPONENT?
+Section 1 - A collection of past collaborators (will need a third json file for this?)
 
 Section 2
-Anonymous testimonials from past events, should be at least 200 words. Add 5 dummy testimonials. DONE
+Anonymous testimonials from past events, should be at least 200 words. All in iambic pentameter. Add 5 dummy testimonials. DONE
+
 
 (Conspire)
-Section 1 , email block to submit collab requests.
-Seciton 2 , hook up chat gpt with hidden prompts that converts response to iambic pentameter, max 200 words in submissions. and is sent as a post to db.json in proper format
+Section 1 , email block to submit collab/programming requests.
+
+Section 2 : Create a submission form for tesimonials in curiosities page.  DONE
+Hook up chat gpt with hidden prompts that converts response to iambic pentameter, max 200 words in submissions. and is sent as a post to db.json in proper format
 
 Make it all pretty please.
 

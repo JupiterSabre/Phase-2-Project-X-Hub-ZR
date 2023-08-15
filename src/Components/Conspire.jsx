@@ -63,7 +63,7 @@ function Conspire() {
                <br />
                <br />
 
-                <textarea onChange={handleNewTestimony} rows="5" cols="60" name="text" placeholder="let us know..."></textarea>
+                <textarea onChange={handleNewTestimony} rows="5" cols="60" name="text" placeholder="This one time, at XXXXXXXXXX club..." maxLength="600" ></textarea>
                 <br />
                 <label>
                 <input onChange={handleNewTushy} type="checkbox" name="checkbox" value="false" />

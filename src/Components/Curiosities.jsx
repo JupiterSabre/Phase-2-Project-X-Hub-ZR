@@ -18,7 +18,17 @@ function Curiosities() {
     return (
         <div className="curiosities">
         <h1>I AM THE CURIOSITIES PAGE HOW INTERESTING!</h1>
-        <div>
+        <br />
+        <br />
+        <div className="curiousPeople">A collection of noteworthy collaborators</div>
+        <hr />
+        <br />
+        <br />
+        <br />
+
+
+        <div className="testimonial-container">
+            A collection of things experienced at XXXXXXXXXX club, URL and IRL
             {mappedTestimonials}
         </div>
 
