@@ -1,3 +1,50 @@
+# XXXXXXXXXX HUB
+
+Phase 2 project TO DO'S
+
+
+
+(Databases)
+-Add working img links to photos.json
+-Build out DB.json, this will hold anonymous testimonials and other tidbits about user that submitted. DONE
+
+(Home)
+-Build subcomponent hooked up to button the links to an application form. Yes, the button is there.
+
+(Happenings)
+-Where 2 image galleries live. Images are horizontally displayed, and scroll when hovered over, image that is focused on will expand a bit.
+
+(Curiosities)
+What will section 1 actually contain? DALL-E COMPONENT?
+
+Section 2
+Anonymous testimonials from past events, should be at least 200 words. Add 5 dummy testimonials. DONE
+
+(Conspire)
+Section 1 , email block to submit collab requests.
+Seciton 2 , hook up chat gpt with hidden prompts that converts response to iambic pentameter, max 200 words in submissions. and is sent as a post to db.json in proper format
+
+Make it all pretty please.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

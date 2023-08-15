@@ -1,0 +1,52 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Anon",
+      "testimonial": "In Cairo's heart, I ventured far and wide,\nWhere history and modernity collide.\nThe Pyramids stood tall in golden sand,\nAncient wonders crafted by skilled hand.\n\nThe Nile's gentle flow, a soothing balm,\nA lifeline for the city's vibrant psalm.\nBazaars alive with colors and scent,\nA sensory journey where time is spent.\nI marveled at the Sphinx, a guardian bold,\nIts enigmatic gaze, stories untold.\nThe Egyptian Museum held treasures vast,\nUnveiling tales of dynasties that last.\nFrom bustling streets to mosques of grand design,\nCairo's essence, a tapestry divine.\nThe people's warmth, a welcome so true,\nA journey etched in memory anew.",
+      "tushy": true
+    },
+    {
+      "id": 2,
+      "name": "Pseudon",
+      "testimonial": "Amid Cairo's grandeur, I found my way,\nWhere ancient tales and modern life hold sway.\nThe Pyramids stood tall in golden grace,\nA testament to time, a wondrous place.\n\nThe bustling bazaars, a vibrant maze,\nWith scents and colors that dazzle and amaze.\nThe Nile's serene embrace, a soothing balm,\nA city's heartbeat, a tranquil calm.\n\nMosques and minarets adorned the sky,\nA testament to faith that lifts us high.\nEgyptian hospitality, warm and true,\nIn every smile, a welcome I knew.\n\nCairo's magic, a blend of old and new,\nA journey of wonder that forever grew.\nThis vacation etched in memory's delight,\nIn Cairo's enchantment, my soul took flight.",
+      "tushy": true
+    },
+    {
+      "id": 3,
+      "name": "Hedon",
+      "testimonial": "Of Cairo's chaos, I ventured with care,\nA llama by my side, sassy and rare.\n\nThe Pyramids stood tall, lost 'midst the crowd,\nMy llama's snark loud, disapproval avowed.\n\nBazaars overwhelmed, a llama's disdain,\nLost in the hustle, we struggled in vain.\n\nThe Nile's murky waters, my llama's critique,\nA sassy retort, oh, the irony unique.\n\nMosques and minarets, my llama scoffed bold,\n'More llama-friendly sites,' its critique uncontrolled.\n\nCairo's charm, to my llama's chagrin,\nA vexing vacation, it sneered with a grin.\n\nThis sassy escapade, in memories stored,\nA llama's verdict, Cairo's allure ignored.",
+      "tushy": false
+    },
+    {
+      "id": 4,
+      "name": "Epicurus",
+      "testimonial": "In Soho's heart, a magical night took flight,\nA pop-up gala in dreamlike delight.\n\n'Midsummer Night's Dream' was the theme so fair,\nEnchanting ambiance filled the summer air.\n\nUnder twinkling stars, the venue did gleam,\nLike fairy lights dancing in a whimsical dream.\n\nGuests adorned as sprites and woodland kin,\nThe revelry began, a fantasy within.\n\nMystical music carried us away,\nTo a realm of enchantment, where time held sway.\n\nCascading laughter, and joyous delight,\nUnited by fantasy, under moon's soft light.\n\nSoho embraced the magic that night,\nA gala to remember, our spirits took flight.\n\nIn memories cherished, a dream weaved so true,\n'Midsummer Night's Dream,' forever in view.",
+      "tushy": true
+    },
+    {
+      "id": 5,
+      "name": "2BeOrNot2Be",
+      "testimonial": "Into XXXXXXXXXX Kimball Musk did glide,\nA Midsummer Night's Dream gala to confide.\n\nWith stars in his eyes and a grin so bright,\nThe party ignited in whimsical light.\n\nEnchanted forest dreams adorned the scene,\nWith guests as fairies and kings, a magical sheen.\n\nBut amidst the revelry, a surprise took flight,\nToilet paper confetti, an unexpected sight.\n\nLaughter erupted as rolls twirled through air,\nAdding joy to the night, beyond compare.\n\nMusic and mirth danced hand in hand,\nUnderneath moon's glow, a fairyland.\n\nSoho's spirit embraced us, a night so divine,\nIn 'Midsummer Night's Dream,' stars did align.\n\nIn memories cherished, this gala's embrace,\nA night to remember, in time's sweet grace.",
+      "tushy": true
+    },
+    {
+      "id": 6,
+      "name": "Optimistic Primitivist",
+      "testimonial": "Amid Soho's vibrant heartbeat, I embarked\nOn a journey of wellness, both body and soul sparked.\n\nAn IV drip clinic, a fusion so rare,\nWith a sound bath session, beyond compare.\n\nIn ancient Gregorian tones, the vocalist sang,\nHer voice like a soothing balm that rang.\n\nAs melodies echoed through the sacred space,\nA sense of tranquility, a serene embrace.\n\nThe IV's gentle flow and the harmonious song,\nUnited in healing, a synergy strong.\n\nSoothing vibrations swept worries away,\nIn Soho's haven, serenity held sway.\n\nAn event that bridged eras, old and anew,\nWith Gregorian roots, the wellness avenue.\n\nIn memories cherished, a holistic retreat,\nSoho's treasure trove, both restful and sweet.",
+      "tushy": true
+    },
+    {
+      "id": 7,
+      "name": "Equanimity before Bros & Hoes",
+      "testimonial": "In Soho's heart, a haven of delight,\nA popup club where explorations take flight.\n\nSafe consumption's the creed, a haven to be,\nWhere pleasure and altered states dance so free.\n\nA refuge to wander, without judgment or fear,\nExploring dimensions, with friends near and dear.\n\nAmid neon glow, the ambiance thrives,\nA place to be yourself, where every soul thrives.\n\nWith care at the helm, a sanctuary's born,\nWhere exploration's embraced from night until morn.\n\nSoho's social gem, a tapestry of grace,\nA safe space to journey, in time and in space.\n\nIn memories cherished, these moments reside,\nA popup club's magic, in hearts far and wide.",
+      "tushy": true
+    },
+    {
+      "name": "Testinggg",
+      "testimonial": "one two three four five six seven eight nine.",
+      "tushy": "false",
+      "id": 8
+    }
+  ]
+}
