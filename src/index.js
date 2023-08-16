@@ -17,6 +17,7 @@ import Curiosities from './Components/Curiosities';
 import Conspire from './Components/Conspire';
 import ErrorPage from './Components/ErrorPage'
 
+
 //LOADERS ???//
 
 //WE PLACE ALL OUR ROUTES IN THE ARRAY BELOW

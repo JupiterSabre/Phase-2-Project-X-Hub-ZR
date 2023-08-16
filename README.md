@@ -7,25 +7,26 @@ Phase 2 project TO DO'S
 (Databases)
 -Add working img links to photos.json
 -Build out DB.json, this will hold anonymous testimonials and other tidbits about user that submitted. DONE
+-Third database?
 
 (Home)
 -Build subcomponent hooked up to button the links to an application form. Yes, the button is there.
 
 (Happenings)
--Where 2 image galleries live. Images are horizontally displayed, and scroll when hovered over, image that is focused on will expand a bit.
+-Where 2 image galleries live. Images are horizontally displayed, and scroll when hovered over, image that is focused on will expand a bit.***
 
 (Curiosities)
-Section 1 - A collection of past collaborators (will need a third json file for this?)
+Section 1 - A collection of past collaborators (will need a third json file for this?) Do you wanna do this? idk
 
 Section 2
-Anonymous testimonials from past events, should be at least 200 words. All in iambic pentameter. Add 5 dummy testimonials. DONE
+Anonymous testimonials from past events, should be at least 200 words. DONE All in iambic pentameter. Add 5 dummy testimonials. 
 
 
 (Conspire)
 Section 1 , email block to submit collab/programming requests.
 
 Section 2 : Create a submission form for tesimonials in curiosities page.  DONE
-Hook up chat gpt with hidden prompts that converts response to iambic pentameter, max 200 words in submissions. and is sent as a post to db.json in proper format
+Hook up chat gpt with hidden prompts that converts response to iambic pentameter, max 200 words in submissions. and is sent as a post to db.json in proper format -DO THIS TONIGHT
 
 Make it all pretty please.
 

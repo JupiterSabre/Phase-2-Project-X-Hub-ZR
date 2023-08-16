@@ -1,28 +1,20 @@
 import { useLoaderData } from "react-router-dom"
+import HapCard from "./HapCard"
 
 
 function Happenings() {
 
     //GET PHOTO OBJECTS FROM PHOTOS
-    const { photoObject } = useLoaderData()
-
-    const mappedPhotoNav = photoObject.map(happening => (
-        <>
-        <h3>{happening.name}</h3>
-        <img src={happening.image} alt="It happened!" />
-        </>
-    ))
-
-
+    const { photoObjects } = useLoaderData()
 
 
     return (
         <div className="happenings">
         <h1>I AM THE HAPPENINGS PAGE WOO</h1>
-        <nav>
-            {mappedPhotoNav}
-
-        </nav>
+         <nav className="photo-list" >
+            {photoObjects.map(happening => (
+                <HapCard key={happening.id} happening={happening} /> ))}
+         </nav>
         </div>
     )
 }

@@ -2,7 +2,7 @@
     "photos": [
       {
         "id": 1,
-        "name": "Pyramids of Sudan",
+        "name": "THE FIRST PYRAMIDS",
         "image": "https://classicalwisdom.com/wp-content/uploads/2021/05/Screen-Shot-2021-05-24-at-14.30.43.png",
         "album": "Egypt"
       },
@@ -44,13 +44,13 @@
       },
       {
         "id": 8,
-        "name": "8 HAPPENING 8",
+        "name": "Whattttt is HAPPENING 8",
         "image": "src/assets/sillouette-egypt-bust-2.png",
         "album": "Egypt"
       },
       {
         "id": 9,
-        "name": "Pyramids of Sudan",
+        "name": "Not Another Pyramid",
         "image": "https://classicalwisdom.com/wp-content/uploads/2021/05/Screen-Shot-2021-05-24-at-14.30.43.png",
         "album": "Egypt"
       },
@@ -134,7 +134,7 @@
       },
       {
         "id": 23,
-        "name": "Pyramids of Sudan",
+        "name": "Empire of the Sun",
         "image": "https://classicalwisdom.com/wp-content/uploads/2021/05/Screen-Shot-2021-05-24-at-14.30.43.png",
         "album": "Egypt"
       },
@@ -146,7 +146,7 @@
       },
       {
         "id": 25,
-        "name": "Pyramids of Sudan",
+        "name": "Wonderland",
         "image": "https://classicalwisdom.com/wp-content/uploads/2021/05/Screen-Shot-2021-05-24-at-14.30.43.png",
         "album": "Egypt"
       },

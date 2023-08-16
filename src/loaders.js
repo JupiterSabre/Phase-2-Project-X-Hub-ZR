@@ -7,6 +7,9 @@ export async function getTestimonials() {
 
 export async function getHappenings() {
     const response = await fetch("http://localhost:3000/photos")
-    const photoObject = await response.json()
-    return { photoObject }
+    const photoObjects = await response.json()
+    console.log(photoObjects)
+    return { photoObjects }
 }
+
+// getHappenings()
