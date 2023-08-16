@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
+import EmailForm from "./EmailForm"
 
 
 function Conspire() {
@@ -47,6 +48,7 @@ function Conspire() {
         {/* INSERT PLACEHOLDER HORIZONTALLY SCROLLING PROECT THUMBNAILS FOR VISUAL SUBMISSION */}
         <div className="visual-submissions">
             PLACEHOLDER FOR MEMBER PROJECT SUBMISSIONS
+            <EmailForm / >
         </div>
 
         <br />

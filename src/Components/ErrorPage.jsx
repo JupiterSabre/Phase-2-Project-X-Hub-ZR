@@ -10,10 +10,10 @@ function ErrorPage() {
     return (
             <>
 
-    <p>OH, BOY, THIS ISN'T WHERE YOU PUT YOUR CAR...</p>
-    <p>{error.status}</p>
-    {/* THE BELOW ACCOUNTS FOR A VARIETY OF THINGS THAT CAN BE THROWN BY AN ERROR */}
-    <p>{error.StatusText || error.message || error.data}</p>
+        <p>OH, BOY, THIS ISN'T WHERE YOU PUT YOUR CAR...</p>
+        <p>{error.status}</p>
+        {/* THE BELOW ACCOUNTS FOR A VARIETY OF THINGS THAT CAN BE THROWN BY AN ERROR */}
+        <p>{error.StatusText || error.message || error.data}</p>
 
     </>
 

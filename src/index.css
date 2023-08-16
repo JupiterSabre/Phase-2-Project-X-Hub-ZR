@@ -12,7 +12,30 @@ code {
     monospace;
 }
 
+
+.testimonial-container {
+  position: relative;
+}
+
+.testimonial-container > :first-child {
+  margin-top: 12%;
+}
+
+.testim-card {
+  position: relative;
+  left: 50%;
+  width: 30%;
+  transform: translate(-50%, -50%);
+}
+
 .photo-list {
-    display:flex;
-    justify-content: center;
+  display:flex;
+  flex-wrap: nowrap;
+  overflow-x:auto;
+  width: 90%;
+  margin:auto;
+}
+
+.hap-card {
+  padding: 2%;
 }

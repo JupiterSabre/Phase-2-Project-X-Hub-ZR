@@ -2,10 +2,10 @@
 
 function TestimCard({testimonialObj}) {
     return (
-        <>
-        <h2>{testimonialObj.name}</h2>
+        <div className="testim-card">
+        <h4>{testimonialObj.name}</h4>
         <p>{testimonialObj.testimonial}</p>
-        </>
+        </div>
     )
 }
 

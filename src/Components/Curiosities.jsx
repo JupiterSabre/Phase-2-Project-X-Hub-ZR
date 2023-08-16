@@ -7,14 +7,15 @@ function Curiosities() {
     //GET TESTIMONIALS FROM LOADER
     const { testimonials } = useLoaderData()
 
+    //MAP TESTIMONIALS FOR DISPLAYING IN TestimCard
+
     const mappedTestimonials = testimonials.map(testimonialObj => (
         <TestimCard key={testimonialObj.id} testimonialObj={testimonialObj} />
-      
-
     ))
 
 
     return (
+        <>
         <div className="curiosities">
             <h1>I AM THE CURIOSITIES PAGE HOW INTERESTING!</h1>
             <br />
@@ -26,13 +27,15 @@ function Curiosities() {
             <br />
 
 
+               <div> A collection of things experienced at XXXXXXXXXX --- URL and IRL</div>
+               <hr/>
             <div className="testimonial-container">
-                A collection of things experienced at XXXXXXXXXX club, URL and IRL
-                {mappedTestimonials}
+                 {mappedTestimonials}
             </div>
 
 
         </div>
+        </>
     )
 }
 

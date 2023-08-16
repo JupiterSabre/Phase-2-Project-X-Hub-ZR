@@ -6,10 +6,8 @@ export async function getTestimonials() {
 }
 
 export async function getHappenings() {
-    const response = await fetch("http://localhost:3000/photos")
-    const photoObjects = await response.json()
-    console.log(photoObjects)
-    return { photoObjects }
+    const response = await fetch("http://localhost:5000/photos")
+    const photos = await response.json()
+    return { photos }
 }
 
-// getHappenings()
