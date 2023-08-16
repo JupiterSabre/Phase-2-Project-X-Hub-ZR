@@ -1,4 +1,9 @@
+import { useNavigate } from "react-router-dom"
+
+
 function Home () {
+    const navigate= useNavigate();
+
 return (
     <>
 
@@ -9,7 +14,7 @@ return (
     <p>See you in the flesh, collective humanity.</p>
     <p>XO</p>
     <br></br>
-    <button onClick={() => alert('PAY UP ')}>Sign up for Fall '24</button>
+    <button onClick={() => navigate(`/signUp`)}>Sign up for Fall '24</button>
 
     </>
     )
