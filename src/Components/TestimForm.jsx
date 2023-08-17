@@ -10,6 +10,8 @@ function TestimForm() {
         const [newName, setNewName] = useState("")
         const [tushyUse, setTushyUse] = useState("false")
 
+      
+
         //HANDLERS FOR NEW TESTIMONIAL FORMS INCLUDING POST REQUEST.
 
         const handleNewTestimony = e => setNewTestimony(e.target.value)
@@ -30,7 +32,8 @@ function TestimForm() {
             }
             fetch("http://localhost:4000/testimonials", OPTIONS)
             .then(res => res.json())
-            .then(() => navigate('/curiosities') )
+            // .then(newTestimony => updateTestimonials(newTestimony))
+            .then(() => navigate('/curiosities'))
             //NAVIGATE FUNCTION IS BUILT IN REACT ROUTER FUNCTIONALITY, AUTOMATICALLY UPDATES AND NAVIGATES TO CURIOSITIES PAGE.
         } 
 

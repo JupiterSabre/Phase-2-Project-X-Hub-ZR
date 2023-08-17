@@ -17,7 +17,7 @@ function EmailForm(e) {
 
 
     return (
-        <div>
+        <div className="email-form">
             <form onSubmit={sendEmail}>
                 <div>
                 <input type="text" placeholder="Name" name="name" />
