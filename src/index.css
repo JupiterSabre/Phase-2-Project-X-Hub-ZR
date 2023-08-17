@@ -11,13 +11,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
 .title-page{
   font-size: 5rem;
+}
+
+.welcome-msg{
+  outline: 20px solid black;
+  margin: 100px auto;
+  width:80%;
+  padding: 35px 15px 35px 30px;
+  border-radius: 100px;
+  transition: outline 0.6s linear;
 }
 
 .link{
@@ -62,7 +67,7 @@ code {
   transition: outline 0.6s linear;
 }
 
-.photo-list:hover{
+.photo-list:hover, .welcome-msg:hover{
   outline-width: 10px;
 }
 
