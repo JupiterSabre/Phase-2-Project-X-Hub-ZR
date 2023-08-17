@@ -4,31 +4,23 @@ Phase 2 project TO DO'S
 
 STYLE EVERYTHINGGGGGG
 
-(Databases)
--Add working img links to photos.json? Figure out why the whole array of photo objects does not render in happenings component/card.
--Build out DB.json, this will hold anonymous testimonials and other tidbits about user that submitted. DONE!
--Third database?
+(Happenings)
+-add blur to img when not hovered on, comes into focus and gets larger when it is hovered on
 
-(Home)
--Build subcomponent hooked up to button the links to an application form. Yes, the button is there.
+
+(Databases)
+-FIX DATABASE INFO
+
+
 
 (Happenings)
--Where 2 image galleries live. Images are horizontally displayed, and scroll when hovered over, image that is focused on will expand a bit.***
+-style happenings gallery a bit more
 
 (Curiosities)
-Section 1 - A collection of past collaborators Filler images on hover that links to a placeholder info card?
-
-Section 2
-Anonymous testimonials from past events, should be at least 200 words. DONE All in iambic pentameter. Add 5 dummy testimonials. Configure container with scroll option.
+-fix card stacking, fix state update to testimonials array.
+-Add blur component to cards when they are not hovered on
 
 
-(Conspire)
-Section 1 , email functionality DONE
-
-Section 2 : Create a submission form for tesimonials in curiosities page.  DONE
-Hook up chat gpt with hidden prompts that converts response to iambic pentameter, max 200 words in submissions. and is sent as a post to db.json in proper format -DO THIS TONIGHT
-
-Make it all pretty please.
 
 
 
