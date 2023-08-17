@@ -28,13 +28,12 @@ function TestimForm() {
                     tushy: tushyUse
                 })
             }
-            fetch("http://localhost:3000/testimonials", OPTIONS)
+            fetch("http://localhost:4000/testimonials", OPTIONS)
             .then(res => res.json())
             .then(() => navigate('/curiosities') )
             //NAVIGATE FUNCTION IS BUILT IN REACT ROUTER FUNCTIONALITY, AUTOMATICALLY UPDATES AND NAVIGATES TO CURIOSITIES PAGE.
         } 
 
-        {/* TESTIMONIAL FORM, WITH STATE AND POST CONFIGURATION ABOVE. */}
 
     return (
 

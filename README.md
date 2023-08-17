@@ -2,7 +2,7 @@
 
 Phase 2 project TO DO'S
 
-
+STYLE EVERYTHINGGGGGG
 
 (Databases)
 -Add working img links to photos.json? Figure out why the whole array of photo objects does not render in happenings component/card.

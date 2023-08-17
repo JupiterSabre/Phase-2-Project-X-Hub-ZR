@@ -3,14 +3,14 @@ import { Link } from "react-router-dom"
 function Header(props) {
     return (
         <header className="main-header">
-        <h1>XXXXXXXXXX Hub</h1>
+        <h1 className="title-page">XXXXXXXXXX Hub</h1>
         <hr></hr>
 
             <nav>
-            <Link to="/">Home----</Link>
-            <Link to="/happenings">Happenings----</Link>
-            <Link to="curiosities">Curiosities----</Link>
-            <Link to="conspire">Conspire       </Link>
+            <Link to="/" className="link">home    /</Link>
+            <Link to="/happenings" className="link">  happenings    /</Link>
+            <Link to="curiosities" className="link">  curiosities    /</Link>
+            <Link to="conspire" className="link">  conspire       </Link>
             </nav>
 
 

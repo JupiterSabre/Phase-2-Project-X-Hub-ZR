@@ -17,7 +17,7 @@ function Curiosities() {
     return (
         <>
         <div className="curiosities">
-            <h1>I AM THE CURIOSITIES PAGE HOW INTERESTING!</h1>
+            <h1 className="section-title">curiosities</h1>
             <br />
             <br />
             <div className="curiousPeople">A collection of noteworthy collaborators</div>

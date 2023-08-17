@@ -14,7 +14,7 @@ function Happenings() {
 
     return (
         <div className="happenings">
-            <h1>I AM THE HAPPENINGS PAGE WOO</h1>
+            <h1 className="section-title">happenings</h1>
             <nav className="photo-list" >
             {mappedHappenings}
             </nav>
