@@ -13,12 +13,26 @@ function Happenings() {
 
 
     return (
+        <>
+
         <div className="happenings">
             <h1 className="section-title">happenings</h1>
             <nav className="photo-list" >
             {mappedHappenings}
             </nav>
+            {/* <br /> */}
+            <nav className="photo-list" >
+            {mappedHappenings}
+            </nav>
+            <nav className="photo-list" >
+            {mappedHappenings}
+            </nav>
         </div>
+
+
+        
+
+        </>
     )
 }
 

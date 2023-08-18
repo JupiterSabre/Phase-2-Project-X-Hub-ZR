@@ -2,8 +2,8 @@
     "photos": [
       {
         "id": 1,
-        "name": "THE FIRST PYRAMIDS",
-        "image": "https://cdn.filestackcontent.com/Krg875TyRVwr5OOumHAG/convert?cache=true&crop=126%2C64%2C1187%2C593&crop_first=true&quality=90&w=1920",
+        "name": "Atlantis Palm Dubai",
+        "image": "https://i.pinimg.com/564x/6c/a8/e6/6ca8e66113f200e799866c0945bc31d6.jpg",
         "album": "Egypt"
       },
       {
@@ -44,117 +44,57 @@
       },
       {
         "id": 8,
-        "name": "Whattttt is HAPPENING 8",
-        "image": "src/assets/sillouette-egypt-bust-2.png",
+        "name": "Red Canyon",
+        "image": "https://i.pinimg.com/564x/ac/29/12/ac29127448ebc187a2d7d4e93543bb8d.jpg",
         "album": "Egypt"
       },
       {
         "id": 9,
-        "name": "Not Another Pyramid",
-        "image": "https://classicalwisdom.com/wp-content/uploads/2021/05/Screen-Shot-2021-05-24-at-14.30.43.png",
+        "name": "Desierto Tatacoa",
+        "image": "https://i.pinimg.com/originals/45/f4/36/45f436e49b47e4ab0c207e3bb2ab2b5b.jpg",
         "album": "Egypt"
       },
       {
         "id": 10,
-        "name": "10 HAPPENING 10",
-        "image": "src/assets/sillouette-egypt-bust-2.png",
+        "name": "Cenote El Pit",
+        "image": "https://i.pinimg.com/originals/54/c6/1f/54c61f2b55274bc2c928641f26af7fae.jpg",
         "album": "Egypt"
       },
       {
         "id": 11,
-        "name": "Pyramids of Sudan",
-        "image": "https://classicalwisdom.com/wp-content/uploads/2021/05/Screen-Shot-2021-05-24-at-14.30.43.png",
+        "name": "Cano Cristales",
+        "image": "https://i.pinimg.com/originals/83/fe/72/83fe725f2310d06fe77ced06ffe75fbc.jpg",
         "album": "Egypt"
       },
       {
         "id": 12,
-        "name": "12 HAPPENING 12",
-        "image": "src/assets/sillouette-egypt-bust-2.png",
+        "name": "Burning Man",
+        "image": "https://i.pinimg.com/originals/d3/7d/82/d37d8275661c6c00ea81fdd2947f2ca7.jpg",
         "album": "Egypt"
       },
       {
         "id": 13,
-        "name": "Pyramids of Sudan",
+        "name": "Tibet",
         "image": "https://classicalwisdom.com/wp-content/uploads/2021/05/Screen-Shot-2021-05-24-at-14.30.43.png",
         "album": "Egypt"
       },
       {
         "id": 14,
-        "name": "14 HAPPENING 14",
-        "image": "src/assets/sillouette-egypt-bust-2.png",
+        "name": "Morondava",
+        "image": "https://i.pinimg.com/564x/63/5f/bc/635fbcb34fa1c37dc96eccf7b1a4076c.jpg",
         "album": "Egypt"
       },
       {
         "id": 15,
-        "name": "Pyramids of Sudan",
-        "image": "https://classicalwisdom.com/wp-content/uploads/2021/05/Screen-Shot-2021-05-24-at-14.30.43.png",
+        "name": "Yemen",
+        "image": "https://i.pinimg.com/originals/71/1f/c6/711fc66ad0ec6db6a788f1094ec92894.jpg",
         "album": "Egypt"
       },
       {
         "id": 16,
-        "name": "16 HAPPENING 16",
-        "image": "src/assets/sillouette-egypt-bust-2.png",
+        "name": "Pakistan",
+        "image": "https://i.pinimg.com/564x/3f/8a/35/3f8a35fd5f071a75dcb5bc8847486c63.jpg",
         "album": "Egypt"
-      },
-      {
-        "id": 17,
-        "name": "Pyramids of Sudan",
-        "image": "https://classicalwisdom.com/wp-content/uploads/2021/05/Screen-Shot-2021-05-24-at-14.30.43.png",
-        "album": "Egypt"
-      },
-      {
-        "id": 18,
-        "name": "18 HAPPENING 18",
-        "image": "src/assets/sillouette-egypt-bust-2.png",
-        "album": "Egypt"
-      },
-      {
-        "id": 19,
-        "name": "Pyramids of Sudan",
-        "image": "https://classicalwisdom.com/wp-content/uploads/2021/05/Screen-Shot-2021-05-24-at-14.30.43.png",
-        "album": "Egypt"
-      },
-      {
-        "id": 20,
-        "name": "20 HAPPENING 20",
-        "image": "src/assets/sillouette-egypt-bust-2.png",
-        "album": "Egypt"
-      },
-      {
-        "id": 21,
-        "name": "Pyramids of Sudan",
-        "image": "https://classicalwisdom.com/wp-content/uploads/2021/05/Screen-Shot-2021-05-24-at-14.30.43.png",
-        "album": "Egypt"
-      },
-      {
-        "id": 22,
-        "name": "22 HAPPENING 22",
-        "image": "src/assets/sillouette-egypt-bust-2.png",
-        "album": "Egypt"
-      },
-      {
-        "id": 23,
-        "name": "Empire of the Sun",
-        "image": "https://classicalwisdom.com/wp-content/uploads/2021/05/Screen-Shot-2021-05-24-at-14.30.43.png",
-        "album": "Egypt"
-      },
-      {
-        "id": 24,
-        "name": "24 HAPPENING 24",
-        "image": "src/assets/sillouette-egypt-bust-2.png",
-        "album": "Egypt"
-      },
-      {
-        "id": 25,
-        "name": "Wonderland",
-        "image": "https://classicalwisdom.com/wp-content/uploads/2021/05/Screen-Shot-2021-05-24-at-14.30.43.png",
-        "album": "Egypt"
-      },
-      {
-        "id": 26,
-        "name": "26 HAPPENING 26",
-        "image": "src/assets/sillouette-egypt-bust-2.png",
-        "album": "Summer 2023"
       }
     ]
   }

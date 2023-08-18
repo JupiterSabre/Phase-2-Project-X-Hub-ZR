@@ -5,7 +5,7 @@ Phase 2 project TO DO'S
 STYLE EVERYTHINGGGGGG
 
 (Happenings)
--add blur to img when not hovered on, comes into focus and gets larger when it is hovered on
+-add blur to img when not hovered on, comes into focus and gets largerg when it is hovered on
 
 
 (Databases)
@@ -17,7 +17,6 @@ STYLE EVERYTHINGGGGGG
 -style happenings gallery a bit more
 
 (Curiosities)
--fix card stacking, fix state update to testimonials array.
 -Add blur component to cards when they are not hovered on
 
 

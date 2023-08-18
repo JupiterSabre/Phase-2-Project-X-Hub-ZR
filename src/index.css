@@ -78,6 +78,17 @@ body {
   margin-top: 4%;
 }
 
+
+
+
+.testim-card:first-of-type{
+  filter: none;
+}
+
+.testim-card:active {
+  filter: none;
+}
+
 .testim-card {
   position: sticky;
   outline: 20px solid black;
@@ -91,7 +102,12 @@ body {
 	top: 40px;
   transform: translateX(-50%);
   transition: outline 0.6s linear;
+  filter: blur(2px);
 }
+
+
+
+
 
 
 
@@ -105,11 +121,21 @@ body {
   border-radius: 100px;
   outline: 20px solid black;
   transition: outline 0.6s linear;
+  flex: 0 0 auto;
+}
+
+.photo-list:hover {
+  flex: 1;
 }
 
 .photo-list:hover, .welcome-msg:hover, .email-form:hover, .testimonial-form:hover, .testim-card:hover, .sign-up:hover{
   outline-width: 10px;
+  filter: none;
 }
+
+
+
+
 
 .photo-list::-webkit-scrollbar {
   display:none;
@@ -118,7 +144,7 @@ body {
 
 img {
   border-radius: 70px;
-  border: 3px outset black;
+  /* border: 3px outset black; */
 }
 
 
@@ -132,6 +158,8 @@ img {
   z-index: 2;
   box-shadow: 2px 2px 2px #000;
 }
+
+
 
 .hap-name{
   font-family: 'Alegreya', serif;
@@ -169,3 +197,4 @@ fieldset{
   transform: translateX(-50%);
   transition: outline 0.6s linear;
 }
+
