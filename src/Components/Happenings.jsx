@@ -2,10 +2,13 @@ import { useLoaderData } from "react-router-dom"
 import HapCard from "./HapCard"
 
 
-function Happenings() {
+function Happenings({isOpen}) {
 
     //GET PHOTO OBJECTS FROM PHOTOS ARRAY
     const { photos } = useLoaderData()
+
+
+   
 
     //MAP HAPPENING THUMBNAILS AND NAMES FOR NAV BAR
     const mappedHappenings = photos.map(photo => ( 
@@ -28,6 +31,8 @@ function Happenings() {
             {mappedHappenings}
             </nav>
         </div>
+
+      
 
 
         
