@@ -1,7 +1,7 @@
 
-
 body {
   margin: 0;
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(202, 202, 202, 0.5), rgba(0, 0, 0, 0.5));
   font-family: 'Alegreya', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -24,12 +24,14 @@ body {
   outline: 20px solid black;
   margin: 100px auto;
   width:80%;
-  padding: 35px 15px 35px 30px;
+  padding: 85px 15px 65px 40px;
   border-radius: 100px;
   transition: outline 0.6s linear;
+  font-size: x-large;
 }
 
 .link{
+  color:#000;
   text-decoration: none;
   font-size: 1.5rem;
   font-style: oblique;
@@ -51,27 +53,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* grid-template-columns: 1fr;
-  grid-template-rows: repeat(var(--cards), var(--cardHeight));
-  gap: var(--cardMargin);
-  padding-bottom:calc(var(--cards) * var(--cardTopPadding));
-  margin-bottom: var(--cardMargin); */
+
 
 }
 
-
-/* #card1 {
-	--index: 1;
-}
-#card2 {
-	--index: 2;
-}
-#card3 {
-	--index: 3;
-}
-#card4 {
-	--index: 4;
-} */
 
 
 .testimonial-container > :first-child {
@@ -108,9 +93,6 @@ body {
 
 
 
-
-
-
 .photo-list {
   display:flex;
   white-space: nowrap;
@@ -125,24 +107,31 @@ body {
 }
 
 
-.photo-list:hover, .welcome-msg:hover, .email-form:hover, .testimonial-form:hover, .testim-card:hover, .sign-up:hover, .react-calendar:hover {
+.photo-list:hover,
+.welcome-msg:hover,
+.email-form:hover, 
+.testimonial-form:hover, 
+.sign-up:hover, 
+.react-calendar:hover {
   outline-width: 10px;
+  background: rgba(255, 255, 255, 0.32);
   filter: none;
 }
 
-
-
+.testim-card:hover{
+  outline-width: 10px;
+  background: rgb(230, 232, 237);
+  filter: none;
+}
 
 
 .photo-list::-webkit-scrollbar {
   display:none;
 }
 
-
 img {
   border-radius: 70px;
 }
-
 
 .hap-img{
   transition: 1s;
@@ -154,8 +143,6 @@ img {
   z-index: 2;
   box-shadow: 2px 2px 2px #000;
 }
-
-
 
 .hap-name{
   font-family: 'Alegreya', serif;
@@ -195,22 +182,18 @@ fieldset{
 }
 
 
-/* -----CALENDAR STYLING----- */
-
-
+/* -----CALENDAR STYLING COPIED FROM NODE MODULES----- */
 
 .react-calendar {
   width: 90;
   max-width: 70%;
-  background: white;
+  background: rgba(165, 162, 164, 0.23);
   outline: 20px solid black;
   padding: 35px 0px 35px 20px;
   line-height: 1.125em;
   margin:100px auto;
   border-radius: 100px;
   transition: outline 0.6s linear;
-
-  
 }
 
 .react-calendar--doubleView {
