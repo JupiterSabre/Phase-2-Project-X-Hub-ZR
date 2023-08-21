@@ -23,11 +23,10 @@ function HapCard({ photo }) {
 
         <ImgModal open={isOpen} onClose={() => setIsOpen(false)} >
         
-        <img src={photo.image} alt={`A picture of ${photo.name}`} />
+        <img src={photo.image} alt={`A visual of ${photo.name}`} />
         </ImgModal>
 
         </>
     )
    }
-// VIDEO AT 4:25 
    export default HapCard

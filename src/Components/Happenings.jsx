@@ -1,5 +1,6 @@
 import { useLoaderData } from "react-router-dom"
 import HapCard from "./HapCard"
+import RCalendar from "./RCalendar"
 
 
 function Happenings({isOpen}) {
@@ -20,6 +21,8 @@ function Happenings({isOpen}) {
 
         <div className="happenings">
             <h1 className="section-title">happenings</h1>
+            <RCalendar />
+
             <nav className="photo-list" >
             {mappedHappenings}
             </nav>
