@@ -6,7 +6,7 @@ A digital place for our mmembers to stay in the loop, or venture out of it.
 
 This hub is meant to be iterated on for the fall season.
 
-##Home Page: Your invitation. Lucky you if you have access. Click the sign up sheet to apply for the fall season.
+##Home Page: Your invitation. Lucky you if you have access. Click the sign up sheet to apply for the fall season. Sign up form is powered by emailjs API.
 
 ##Happenings: A gallery style catalog of past events & collaborations. Click on an image for fill view, double click for exit view.
 --> A calendar of geo located programming within a 2-week period. Book an IV session or full body massage ahead of time.
@@ -15,14 +15,14 @@ This hub is meant to be iterated on for the fall season.
 ##Curiosity: A display of notable testimonials from club members.
 -->Future Deliverable: An interactive map for marking places been, places soon to be, & upcoming events with on hover popups with detailed information. Gallery images will be indexed and mapped to the interactive map at some point.
 
-#Conspire: A form for pitching collaborations, private programming, sponsorship, or feedback in general.
+#Conspire: A form for pitching collaborations, private programming, sponsorship, or feedback in general. This is powered by emailjs API.
 --> An experimental form for testimonials, on the backend it takes in a testimony input and paraphrases the submission in iambic pentameter.
 
 Other future deliverables:
 Proper login page.
 Payment services (probably stripe)
 Dynamic menu page for in club orders
-
+Much, much, better styling.
 
 
 
