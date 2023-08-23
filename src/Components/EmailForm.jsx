@@ -18,6 +18,7 @@ function EmailForm(e) {
 
     return (
         <div className="email-form">
+            <h2>Have an idea for the fall season?</h2>
             <form onSubmit={sendEmail}>
                 <div>
                 <input type="text" placeholder="Name" name="name" />

@@ -42,8 +42,9 @@ function TestimForm() {
 
 
         <div className="testimonial-form">
+            <h2>Part of the Summer '23 pop up? Drop an anectdote below for a chance to win a month's pass for Fall '23!</h2>
             <form>
-               <label>intro: <input type="text" name="newName" onChange={handleNewName} value={newName} placeholder="hi, you can call me..." /> </label>
+                <input type="text" name="newName" onChange={handleNewName} value={newName} placeholder="hi, you can call me..." />
 
                <br />
                <br />

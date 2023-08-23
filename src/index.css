@@ -85,7 +85,9 @@ body {
 }
 
 
-
+.collab-requests{
+  padding-top: 45px;
+}
 
 
 
@@ -206,6 +208,7 @@ img {
 
 .hap-name{
   font-family: 'Alegreya', serif;
+  font-style: italic;
 }
 
 fieldset{
@@ -225,7 +228,7 @@ fieldset{
 }
 
 .email-form{
-  margin-top: 12%;
+  margin-top: 15%;
 }
 
 .sign-up{

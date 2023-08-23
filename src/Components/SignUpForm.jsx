@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-
+import emailjs from "emailjs-com"
 
 function SignUpForm() {
 
@@ -9,6 +9,12 @@ function SignUpForm() {
     function sendMemberRequest(e){
         e.preventDefault();
         alert("thank you. we'll get back you within 2 weeks if the answer to our riddle sufficed");
+        emailjs.sendForm('service_5x5at0h', 'template_tyx5d8m', e.target, 'zPgYeSiwBvun60p50')
+        .then((res) => {
+            console.log(res.text);
+        }, (error) => {
+            console.log(error.text);
+        });
         e.target.reset();
         navigate('/')
     }

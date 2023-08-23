@@ -9,10 +9,22 @@ function Happenings({isOpen}) {
     const { photos } = useLoaderData()
 
 
-    //MAP HAPPENING THUMBNAILS AND NAMES FOR NAV BAR
-    const mappedHappenings = photos.map(photo => ( 
+    //FILTER PHOTOS BASED ON PHOTO.ID RANGES
+    const filteredPhotosOne = photos.filter(photo => photo.id >= 0 && photo.id <= 15)
+    const filteredPhotosTwo = photos.filter(photo => photo.id >= 10 && photo.id <= 22)
+    const filteredPhotosThree = photos.filter(photo => photo.id >= 15 && photo.id <= 27)
+
+    //MAP CARD COMPONENTS FOR EACH FILTERED PHOTO SET
+
+    const mappedHappeningsOne =filteredPhotosOne.map(photo => ( 
     <HapCard key={photo.id} photo={photo} /> ))
 
+    const mappedHappeningsTwo =filteredPhotosTwo.map(photo => ( 
+    <HapCard key={photo.id} photo={photo} /> ))
+
+    const mappedHappeningsThree =filteredPhotosThree.map(photo => ( 
+    <HapCard key={photo.id} photo={photo} /> ))
+        
 
     return (
         <>
@@ -22,14 +34,13 @@ function Happenings({isOpen}) {
             <RCalendar />
 
             <nav className="photo-list" >
-            {mappedHappenings}
-            </nav>
-            {/* <br /> */}
-            <nav className="photo-list" >
-            {mappedHappenings}
+            {mappedHappeningsOne}
             </nav>
             <nav className="photo-list" >
-            {mappedHappenings}
+            {mappedHappeningsTwo}
+            </nav>
+            <nav className="photo-list" >
+            {mappedHappeningsThree}
             </nav>
         </div>
 

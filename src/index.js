@@ -17,6 +17,8 @@ import Curiosities from './Components/Curiosities';
 import Conspire from './Components/Conspire';
 import ErrorPage from './Components/ErrorPage'
 import SignUpForm from './Components/SignUpForm';
+import HubMap from './Components/HubMap';
+
 
 
 //LOADERS ???//
@@ -51,6 +53,10 @@ const router = createBrowserRouter([
       {
         path: "signUp",
         element: <SignUpForm /> 
+      },
+      {
+        path: "hubmap",
+        element: <HubMap />
       }
     ]
   },

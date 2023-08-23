@@ -7,11 +7,10 @@ import ImgModal from "./ImgModal"
 
 function HapCard({ photo }) {
     
-   //STATE FOR IMG MODAL WEB DEV VIDEO AT MIN 3:00
+   //STATE FOR IMG MODAL
    const [isOpen, setIsOpen] = useState(false)
 
-    // CLICK EVENT DOES NOT WORK YET, PLACEHOLDER IMAGE KEEPS RENDERING, FORMAT THE NAME TEXT OF EACH HAPPENING CARD.
-
+    
     return (
 <>
 
