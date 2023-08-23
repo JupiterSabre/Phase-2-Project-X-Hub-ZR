@@ -17,11 +17,11 @@ function RCalendar() {
         twoWeeksLater.setDate(currentDate.getDate() + 5
         )
         if (value < currentDate) {
-        alert('This date is in the past, please select the current or future date to book an appointment.');
+        alert('boop! the past is no more. try another date <3');
         } else if (value <= twoWeeksLater) {
-            alert('You are being redirected to a ticket portal for short-term passes');
+            alert('you are being redirected to a ticket portal for short-term passes');
             window.location.href="https://xxxxxxxxxx.app/hxnyc";
-        } else {alert("Join the fray for access to future programming =) ");
+        } else {alert("join the fray for access to future programming =) ");
         navigate('/')}
         }
     

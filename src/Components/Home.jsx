@@ -15,7 +15,7 @@ return (
     <p>See you in the flesh, collective humanity.</p>
     <p>XO</p>
     <br></br>
-    <button onClick={() => navigate(`/signUp`)}>Sign up for Fall '24</button>
+    <button  className="button" onClick={() => navigate(`/signUp`)}>Sign up for Fall '24</button>
     </div>
 
     </>

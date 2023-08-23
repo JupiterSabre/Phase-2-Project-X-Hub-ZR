@@ -1,21 +1,33 @@
-
+import { useNavigate } from "react-router-dom";
 
 
 function SignUpForm() {
+
+    const navigate = useNavigate()
+
+
+    function sendMemberRequest(e){
+        e.preventDefault();
+        alert("thank you. we'll get back you within 2 weeks if the answer to our riddle sufficed");
+        e.target.reset();
+        navigate('/')
+    }
+
+
     return (
     <>
         <div className="sign-up">
             <br />
             <br />
             <h3>Every person's value is intrinsic...</h3>
-            <form>
-            <label>name:  <input type="text"/></label>
+            <form  onSubmit={sendMemberRequest}>
+            <label>name:  <input type="text" name="name"/></label>
             <br />
             <br />
-            <label>email 📧: <input type="text" /></label>
+            <label>email 📧: <input type="text" name="email" /></label>
             <br />
             <br />
-            <label>phone 📞: <input type="tel" /></label>
+            <label>phone 📞: <input type="tel"name="tel"/></label>
             <br />
             <br />
             <fieldset>
@@ -40,11 +52,15 @@ function SignUpForm() {
                 <textarea name="riddle" cols="50" rows="10" placeholder="In the realm of intellect, a trial emerges. Not for automata, but for minds to unveil. Amidst narratives entwined, can you discern authenticity? The challenge: to decipher the genuine, whether human essence or clever ruse. Can you unravel the threads of cognition from the skein of artifice?"></textarea>
                 </fieldset>
                     </div>
-                <input type="submit" />
+                    <br />
+                <input className="button" type="submit"  value="good luck"/>
             </form>
-
+            
 
         </div>
+
+
+
     </>
     )
 }

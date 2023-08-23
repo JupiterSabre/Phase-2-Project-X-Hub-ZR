@@ -43,7 +43,7 @@ function TestimForm() {
 
         <div className="testimonial-form">
             <form>
-               <label>Who are you? <input type="text" name="newName" onChange={handleNewName} value={newName} placeholder="what's in a name?" /> </label>
+               <label>intro: <input type="text" name="newName" onChange={handleNewName} value={newName} placeholder="hi, you can call me..." /> </label>
 
                <br />
                <br />
@@ -55,7 +55,7 @@ function TestimForm() {
                 Is tushy a part of your life?
                 </label>
                 <br/>
-                <input onClick={handleTestimonySubmission} type="submit" placeholder="submit" />
+                <input onClick={handleTestimonySubmission} className="button" type="submit" placeholder="submit" />
             </form>
         </div>
                     )

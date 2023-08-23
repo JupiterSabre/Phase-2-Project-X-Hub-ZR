@@ -26,7 +26,7 @@ function EmailForm(e) {
                 <div><input type="email" placeholder="Email Address" name="email" /> </div>
                 <div><input type="text" placeholder="Subject" name="subject" /> </div>
                 <div><textarea cols="30" rows ="8" placeholder="Your Message" name="message"></textarea></div>
-                <div><input type="submit" value="Send Message"></input></div>
+                <div><input className="button" type="submit" value="Send Message"></input></div>
             </form>
         </div>
     )

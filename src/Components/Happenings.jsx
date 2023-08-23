@@ -9,8 +9,6 @@ function Happenings({isOpen}) {
     const { photos } = useLoaderData()
 
 
-   
-
     //MAP HAPPENING THUMBNAILS AND NAMES FOR NAV BAR
     const mappedHappenings = photos.map(photo => ( 
     <HapCard key={photo.id} photo={photo} /> ))
