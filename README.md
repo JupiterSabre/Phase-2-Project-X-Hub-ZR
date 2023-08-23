@@ -1,23 +1,28 @@
-# XXXXXXXXXX HUB
+#XXXXXXXXXX  SECRET SOHO SOCIAL CLUB HUB
 
-Phase 2 project TO DO'S
+A digital place for our mmembers to stay in the loop, or venture out of it.
 
-STYLE EVERYTHINGGGGGG
+--> This website is a template digital space for a private social club that specializes in curating programming in novel, remote, wonder-inducing locations.
 
-(Happenings)
--add blur to img when not hovered on, comes into focus and gets largerg when it is hovered on
+This hub is meant to be iterated on for the fall season.
+
+##Home Page: Your invitation. Lucky you if you have access. Click the sign up sheet to apply for the fall season.
+
+##Happenings: A gallery style catalog of past events & collaborations. Click on an image for fill view, double click for exit view.
+--> A calendar of geo located programming within a 2-week period. Book an IV session or full body massage ahead of time.
 
 
-(Databases)
--FIX DATABASE INFO
+##Curiosity: A display of notable testimonials from club members.
+-->Future Deliverable: An interactive map for marking places been, places soon to be, & upcoming events with on hover popups with detailed information. Gallery images will be indexed and mapped to the interactive map at some point.
 
+#Conspire: A form for pitching collaborations, private programming, sponsorship, or feedback in general.
+--> An experimental form for testimonials, on the backend it takes in a testimony input and paraphrases the submission in iambic pentameter.
 
+Other future deliverables:
+Proper login page.
+Payment services (probably stripe)
+Dynamic menu page for in club orders
 
-(Happenings)
--style happenings gallery a bit more
-
-(Curiosities)
--Add blur component to cards when they are not hovered on
 
 
 
